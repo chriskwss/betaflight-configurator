@@ -81,6 +81,12 @@ var Features = function (config) {
                 {bit: 27, group: 'other', name: 'ESC_SENSOR'}
             )
         }
+        
+        if (semver.gte(config.flightControllerVersion, "3.1.7")) {
+            features.push(
+                {bit: 28, group: 'other', name: 'ANTI_GRAVITY'}
+            )
+        }
     }
 
     self._features = features;

@@ -568,6 +568,9 @@
     "featureFAILSAFEOldTip": {
         "message": "Apply Failsafe settings on RX signal loss"
     },
+    "featureANTI_GRAVITY": {
+        "message": "Permanently enable Anti-Gravity"
+    },
     "configurationFeatureEnabled": {
         "message": "Enabled"
     },
